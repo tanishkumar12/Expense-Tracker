@@ -1,0 +1,126 @@
+.font-face-gm {
+    font-family: "Poppins-Black";
+}
+hr{
+    margin-top: 0;
+    width: 100%;
+}
+
+.expenseTracker{
+    background-color: rgba(214, 217, 220, 0.338);
+    width: 100%;
+    max-width: 370px;
+    min-height: 80%;
+    padding:4rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.heading{
+    width: 100%;
+    padding: 0.9rem;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+.expenseBalance{
+    padding-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.expenseBalance h1{
+    margin: -0.3rem;
+}
+.expenseBalance h4{
+    margin: -0.3rem;
+}
+.incomeExpense{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* padding-top: 1.5rem;
+    padding-bottom: 1.5rem; */
+    
+}
+.ieBox{
+    width:50%;
+    border: 1px grey;
+    
+}
+.ieBox h3{
+    margin-top: -0.3rem;
+}
+.ieBox h4{
+    margin-bottom: -0.3rem;
+}
+.history{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.history h4{
+    margin-bottom: 0.5rem;
+}
+.transactions{
+    width: 100%;
+}
+.transactionsBox{
+    
+    width: 100%;
+    background-color: green;
+    margin-bottom: 1rem;
+
+}
+.transactionContent{
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    width: 96%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.addTransaction
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+ .addTransaction h4{
+    margin-bottom: 0.4rem;
+}
+.text
+{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.inputtext{
+    width: 95%;
+	padding: 8px;
+}
+.amount{
+    margin-bottom: 1rem;
+}
+.amount h4{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.button{
+    color: white;
+    background-color: rgb(127, 95, 209);
+    width: 100%;
+    margin-top: 1rem;
+	padding: 10px;
+    border: 0.5px;
+}
