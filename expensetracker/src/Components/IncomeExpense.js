@@ -9,7 +9,7 @@ const IncomeExpense = props => {
         <div className='incomeExpense'>
             <div className='ieBox'>
                 <h4>INCOME</h4>
-                <h3 style={{ color: 'green' }}>₹{props.calcIncome}</h3>
+                <h3 style={{ color: 'rgb(46, 189, 46)' }}>₹{props.calcIncome}</h3>
             </div>
             <div className='vline'></div>
             <div className='ieBox'>
