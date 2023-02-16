@@ -1,5 +1,6 @@
 import React from "react";
-import './ExpenseTracker.css'
+import './UI.css';
+
 const Heading = () => {
     return (
         <div className='heading'>

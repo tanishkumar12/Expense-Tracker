@@ -1,0 +1,21 @@
+hr{
+    margin-top: 0;
+    width: 100%;
+}
+.heading{
+    width: 100%;
+    padding: 0.9rem;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.history{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.history h4{
+    margin-bottom: 0.5rem;
+}

@@ -6,20 +6,8 @@ const Transactions = props => {
         <div className='transactions'>
             <div className='transactionsBox'>
                 <div className='transactionContent'>
-                    <div><h4>Name</h4></div>
-                    <div><h4>+ 100</h4></div>
-                </div>
-            </div>
-            <div className='transactionsBox'>
-                <div className='transactionContent'>
-                    <div><h4>Name</h4></div>
-                    <div><h4>+ 100</h4></div>
-                </div>
-            </div>
-            <div className='transactionsBox'>
-                <div className='transactionContent'>
-                    <div><h4>Name</h4></div>
-                    <div><h4>+ 100</h4></div>
+                    <div><h4>{props.Text}</h4></div>
+                    <div><h4>{props.Amount}</h4></div>
                 </div>
             </div>
         </div>
