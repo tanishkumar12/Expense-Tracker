@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './Fonts/Poppins-Light.ttf';
 import ExpenseTracker from './Components/ExpenseTracker';
 import './Components/ExpenseTracker.css'
 

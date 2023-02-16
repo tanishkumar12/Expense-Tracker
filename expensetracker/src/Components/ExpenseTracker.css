@@ -4,12 +4,14 @@ hr{
 }
 
 .expenseTracker{
+    font-family: "Light";
     background-color: rgba(214, 217, 220, 0.338);
     width: 100%;
     max-width: 370px;
-    min-height: 80%;
+    min-height: 70%;
     padding:4rem;
     padding-top: 1rem;
+    padding-bottom: 1rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -41,6 +43,7 @@ hr{
     margin-top: 1rem;
     margin-bottom: 1rem;
     box-shadow: 0px 0px 4px 0px rgba(128, 128, 128, 0.398);
+    border-radius: 5px;
     /* padding-top: 1.5rem;
     padding-bottom: 1.5rem; */
 }
@@ -55,9 +58,7 @@ hr{
 }
 .ieBox{
     width:50%;
-    border: 1px grey;
-    
-    
+    border: 1px grey;   
 }
 .ieBox h3{
     margin-top: -0.3rem;
@@ -74,24 +75,43 @@ hr{
 .history h4{
     margin-bottom: 0.5rem;
 }
+.historyScrollable{
+    width: 100%;
+    height: 250px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
 .transactions{
     width: 100%;
 }
-.transactionsBox{
+.transactionBoxgreen{
     
     width: 100%;
     background-color: green;
     margin-bottom: 1rem;
+    border-radius: 15px;
+
+}
+.transactionBoxred{
+    
+    width: 100%;
+    background-color: red;
+    margin-bottom: 1rem;
+    border-radius: 15px;
 
 }
 .transactionContent{
-    padding-left: 0.2rem;
+    padding-left: 0.4rem;
     padding-right: 0.2rem;
-    width: 96%;
+    width: 95.5%;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     
+}
+.transactionContent h4{
+    margin-top:0.73rem;
+    margin-bottom:0.73rem;
 }
 .addTransaction
 {
@@ -117,6 +137,7 @@ hr{
     width: 95%;
 	padding: 8px;
     margin-bottom: 1rem;
+    border-radius: 5px;
 }
 .amount{
     margin-bottom: 1rem;
@@ -128,9 +149,12 @@ hr{
     align-items: flex-start;
 }
 .button{
+    margin : 0.5rem;
+    margin-left: 0;
     color: rgb(255, 255, 255);
     background-color: rgb(127, 95, 209);
     width: 100%;
 	padding: 10px;
     border: 0.5px;
+    border-radius: 15px;
 }

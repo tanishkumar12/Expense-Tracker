@@ -23,9 +23,11 @@ const AddTransaction = props => {
             amount: enteredAmount,
         };
         if (inputTransaction.text.trim().length === 0 || inputTransaction.amount.trim().length === 0) {
+            alert("Please add data");
             return;
         }
-        console.log(inputTransaction);
+        // if (typeinputTransaction.amount.trim())
+        //     console.log(inputTransaction);
 
         props.saveTransaction(inputTransaction);
         setEnteredText('');
@@ -44,7 +46,7 @@ const AddTransaction = props => {
                         <h4>Amount</h4>
                         <h4>(negative - expense,positive - income)</h4>
                     </div>
-                    <input className='inputtext' onInput={AmountInput} value={enteredAmount} type="text" placeholder="Enter amount:" />
+                    <input className='inputtext' onInput={AmountInput} value={enteredAmount} type="number" placeholder="Enter amount:" />
                     <button className='button'>Add transaction</button>
                 </form>
             </div>
